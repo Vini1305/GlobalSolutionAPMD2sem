@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+:root{
+    --bg-primary: #272932;
+    --bg-secondary: #0F7173;
+    --bg-header: #043435;
+    --default: #fff;
+    --destak: #f38a13;
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--bg-primary);
+    color: var(--default);
+    font-family: var(--font-primary);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bg-header);
+    padding: 0.6em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5em;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    padding: .6em;
+}
+
+nav a{
+    color: var(--default);
+    text-decoration: none;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+div h1{
+    font-size: 2em;
+}
+
+div span{
+    font-size: 1em;
+}
+
+#list_services{
+    display: flex;
+    flex-direction: column;
+}
+
+#list_services li{
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: var(--bg-secondary);
+    padding: 2em;
+    border-radius: .6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#list_services h2{
+    margin-top: 0;
+}
+
+#locais_atendidos li{
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: var(--bg-secondary);
+    padding: 2em;
+    border-radius: .6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25vw;
+}
+
+#locais_atendidos span{
+    font-style: italic;
+    font-size: .8em;
+}
+
+.button{
+    background-color: var(--destak);
+    color: var(--default);
+    text-decoration: none;
+    padding: 1em;
+    width: fit-content;
+    border-radius: .6em;
+    justify-items: center;
+}
+
+#calculador{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.label{
+    font-size: 1em;
+}
+
+#frete{
+    margin: 2em 2em 2em 0;
+    height: 5vh;
+    font-family: var(--font-primary);
+}
+
+::selection{
+    background-color: var(--destak);
+}

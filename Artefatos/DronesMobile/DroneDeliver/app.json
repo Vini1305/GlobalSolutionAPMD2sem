@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Drone Deliver",
+    "slug": "drone-deliver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/drone_icon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/drone_splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/drone_icon.jpg",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.vini1305.dronedeliver"
+    },
+    "web": {
+      "favicon": "./assets/drone_icon.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7154de20-ea48-4c5f-981d-f384c097abfc"
+      }
+    }
+  }
+}

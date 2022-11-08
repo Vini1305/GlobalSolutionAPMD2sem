@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DroneDeliver - nossos serviços</title>
+    <link rel="stylesheet" href="./styles/services.css">
+</head>
+<body>
+    <header>
+        <h1>DroneDeliver</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Página inicial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="servicos_oferecidos">
+        <h1>Nossos serviços</h1>
+        <span>
+            Nós oferecemos serviços de entrega de encomendas via drone.
+            Você pode nos contratar para as seguintes opções:
+        </span>
+        <ul id="list_services">
+            <li>
+                <h2>Tenha seu próprio drone</h2>
+                <span>Contrate um drone que busca e te entrega suas encomendas quando você solicitar, sem pagar frete.</span>
+            </li>
+            <li>
+                <h2>Tenha um drone compartilhado</h2>
+                <span>Compartilhe com outros 9 usuários o mesmo drone, dividindo as despezas e recebendo suas encomendas o mais rápido possível.</span>
+            </li>
+            <li>
+                <h2>Pague pelo drone que usar</h2>
+                <span>Se você está querendo testar nossos serviços ou não utiliza com frequência, contrate um drone sempre que precisar dele.</span>
+            </li>
+        </ul>
+        <a class="button" href="./valores.html">Verifique valores</a>
+    </div>
+
+    <div id="locais_atendidos">
+        <h1>Veja onde atendemos</h1>
+        <ul class="local">
+            <li>Região metropolitana de São Paulo - SP</li>
+            <li>Santos - SP</li>
+            <li>Mogi das Cruzes - SP</li>
+        </ul>
+        <span>Os valores de frete podem diferir para cada cidade onde o cliente recebe a encomenda.</span>
+    </div>
+    <div id="calculador"> 
+        <h1>Calcule o frete:<br></h1>
+        <label for="frete" class="label">Insira o nome de sua cidade sem acentos<br></label>
+        <input type="text" id="frete" name="frete">
+        <input class="button" type="submit" value="Calcular" onclick="calculate()">
+    </div>
+</body>
+<script src="./scripts/frete.js"></script>
+</html>
